@@ -68,3 +68,6 @@ mod <- lm(log(kmax) ~ log(n))
 curve(exp(mod$coeff[1])*x^mod$coeff[2], add = TRUE, col = 'red')
 legend('topleft', legend = paste('power =', round(mod$coeff[2], 4)), bty = 'n')
 ```
+
+Note to self---check this out:
+https://pdfs.semanticscholar.org/370b/06f08d729166e1bab20769a31cfad5591bc1.pdf
